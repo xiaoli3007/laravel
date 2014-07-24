@@ -10,7 +10,7 @@
 <body>
 <div class="logo">
 
-		<h2>农网 - 分享村里村外的哪些事儿</h2>
+		<h2>框架</h2>
 	
  </div>
 	<div class="header">

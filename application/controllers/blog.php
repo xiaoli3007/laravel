@@ -5,11 +5,11 @@ class Blog_Controller extends Base_Controller
 	{
 			// lets get our posts and eager load the
 		// author
-		$blogs = Blog::with('author')->order_by('created_at', 'desc')->paginate(20);
+		$blogs = Blog::with('author')->order_by('created_at', 'desc')->paginate(2);
 		// show the home view, and include our
 		// posts too
 		//$posts->appends(array('a' => 'app'));
-		//print_r($blogs);exit;
+		
 		return View::make('blog.index')->with('blogs', $blogs);
 	}
 

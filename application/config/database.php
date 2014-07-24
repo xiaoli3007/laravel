@@ -72,7 +72,7 @@ return array(
 			'host'     => 'localhost',
 			'database' => 'laravel',
 			'username' => 'root',
-			'password' => '',
+			'password' => '123123',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 		),
